@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: rds/mysql/main.tf
+  checksum: f969f5f45926cbd954314228c979f1b3467e18bf70ffacc7630973cbace7c383
+version: "1.0"
