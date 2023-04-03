@@ -1,2 +1,4 @@
+fileignoreconfig:
+- filename: rds/mysql/README.md
+  checksum: aa28439c8a60995ae828f8f697797edf5d5e0bdd55b4df73f1c7cdc227a5e9fb
 version: "1.0"
-severity: "medium"
