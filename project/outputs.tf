@@ -25,9 +25,9 @@ output "context" {
 output "tags" {
   description = "Recommended tags to set on each resource"
   value = merge(var.extra_tags, {
-    "starops:project" = var.project,
-    "starops:client"  = var.client,
-    "starops:env"     = var.env,
+    "coc:project" = var.project,
+    "coc:client"  = var.client,
+    "coc:env"     = var.env,
   })
 }
 
